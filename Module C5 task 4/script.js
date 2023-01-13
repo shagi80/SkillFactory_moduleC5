@@ -21,7 +21,7 @@ myButton.addEventListener("click", async() => {
 
   if (width && height) {
   	if(width >= 100 && width <= 300 && height >= 100 && height <= 300){
-  		src = await(useRequest(width, height));
+  		let src = await(useRequest(width, height));
   		result.innerHTML = `<img src=${src} alt="picsum.photos">`;
   	}else{
   		result.innerHTML = "<h2>Одно из чисел вне диапазона от 100 до 300 !</h2>";
