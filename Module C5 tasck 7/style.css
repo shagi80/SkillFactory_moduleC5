@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background : white;
+}
+
+main {
+  margin: 30px 30px;
+}
+
+.myForm {
+  background: silver;
+  padding: 20px 30px;
+}
+
+.myForm label:nth-of-type(2){
+  margin-left: 20px;
+}
+
+.myButton {
+  background: blue;
+  color: white;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.myResult {
+	margin-top: 20px;
+	text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+h2 {
+	color: red;
+}
+
+.card {
+  width: 40%;
+  background: #E5E4E2;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+.card p {
+  margin: 0 0;
+}
